@@ -20,6 +20,7 @@ public class LoanController {
 	            .build();
 		String response= restTemplate.getForObject("/helper", String.class);
 		System.out.println(response);
+		System.out.println("new version");
 	}
 	
 	
